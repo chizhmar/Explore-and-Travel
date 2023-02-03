@@ -1,6 +1,5 @@
 .product {
 	padding-top: 124px;
-	padding-bottom: 200px;
 	&__wrapper {
 		display: flex;
 		justify-content: space-between;
@@ -72,11 +71,27 @@
 		justify-content: space-between;
 		border: 2px solid $main-color;
 	}
-	&__project {
+	&__project, &__years, &__clients {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+	}
+	&__years {
+		&-fz56 {
+			font-size: 56px;
+			line-height: 64px;
+			color: $main-color;
+		}
+		&-fz16 {
+			font-size: 16px;
+			line-height: 32px;
+			letter-spacing: 1.28px;
+			text-transform: uppercase;
+			color: $main-color;
+		}
+	}
+	&__project {
 		background: $main-color;
 		&-fz56 {
 			font-size: 56px;
@@ -91,6 +106,20 @@
 			text-transform: uppercase;
 			color: #FFFFFF;
 			background:$main-color;
+		}
+	}
+	&__clients {
+		&-fz56 {
+			font-size: 56px;
+			line-height: 64px;
+			color: $main-color;
+		}
+		&-fz16 {
+			font-size: 16px;
+			line-height: 32px;
+			letter-spacing: 1.28px;
+			text-transform: uppercase;
+			color: $main-color;
 		}
 	}
 }
