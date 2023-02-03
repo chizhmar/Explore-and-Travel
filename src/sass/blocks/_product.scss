@@ -1,0 +1,96 @@
+.product {
+	padding-top: 124px;
+	padding-bottom: 200px;
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		column-gap: 40px;
+	}
+	&__title {
+		font-size: 23px;
+		line-height: 32px;
+		letter-spacing: 0.48px;
+		color: $main-color;
+		span {
+			&::after {
+				content: '';
+				margin: 0 8px;
+				width: 20px;
+				height: 20px;
+				background: url('../icons/icon_2.svg') 0 2px no-repeat;
+				display: inline-block;
+			}
+		}
+	}
+	&__text {
+		font-size: 56px;
+		line-height: 64px;
+		letter-spacing: 0.56px;
+		color: $main-color;
+		margin-top: 21px;
+	}
+	&__subtitle {
+		font-size: 31px;
+		line-height: 40px;
+		letter-spacing: 0.64px;
+		color: $main-color;
+	}
+	&__dscr {
+		font-size: 18px;
+		line-height: 32px;
+		color: $main-color;
+		margin-top: 36px;
+	}
+	&__items {
+		display: flex;
+		column-gap: 135px;
+		margin-top: 28px;
+	}
+	&__born, &__experience, &__date {
+		display: flex;
+		flex-direction: column;
+		row-gap: 9px;
+	}
+	&__color {
+		&-red {
+			font-size: 12px;
+			line-height: 16px;
+			color: #E94D35;
+		}
+		&-black {
+			font-size: 23px;
+			line-height: 32px;
+			letter-spacing: 0.48px;
+			color: $main-color;
+		}
+	}
+	&__frame {
+		margin-top: 123px;
+		display: grid;
+		grid-template-columns: repeat(3, 352px);
+		grid-template-rows: 152px;
+		justify-content: space-between;
+		border: 2px solid $main-color;
+	}
+	&__project {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background: $main-color;
+		&-fz56 {
+			font-size: 56px;
+			line-height: 64px;
+			color: #FFFFFF;
+			background: $main-color;
+		}
+		&-fz16 {
+			font-size: 16px;
+			line-height: 32px;
+			letter-spacing: 1.28px;
+			text-transform: uppercase;
+			color: #FFFFFF;
+			background:$main-color;
+		}
+	}
+}
