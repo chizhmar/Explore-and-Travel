@@ -1,11 +1,18 @@
-@import "libs/bootstrap-reboot.min";
+@import "libs/null";
 @import "libs/font";
 
+@import 'base/variables';
+
 * {
-	font-family: 'Museo Sans Cyrl', sans-serif;
+	font-family: 'Bai Jamjuree', sans-serif;
+	background: #F5F5F5;
 	}
 .container {
-	max-width: 1460px;
+	max-width: 1090px;
 	margin: 0 auto;
 	padding: 0 15px;
 }
+
+
+@import 'blocks/header';
+@import 'blocks/info';

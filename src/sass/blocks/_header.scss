@@ -1,0 +1,39 @@
+.header {
+	padding: 27px 80px 27px 80px;
+	display: flex;
+	justify-content: space-between;
+	&__nav {
+		display: flex;
+	}
+	&__menu {
+		display: flex;
+		align-items: center;
+		column-gap: 32px;
+		&-link{
+			font-size: 16px;
+			line-height: 24px;
+			color: #161513;
+			&::after {
+				content: '';
+				display: block;
+				width: 100%;
+				height: 1px;
+				background-color: $main-color;
+			}
+		}
+	}
+	&__button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 126px;
+		height: 42;
+		border: 1px solid $main-color;
+		&-white {
+			font-size: 16px;
+			line-height: 24px;
+			color: $main-color;
+			padding: 9px 26px 9px 26px;
+		}
+	}
+}
