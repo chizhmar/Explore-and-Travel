@@ -1,0 +1,41 @@
+.address {
+	padding: 60px 0;
+	background: #E6E3DE;
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__title {
+		font-size: 23px;
+		line-height: 32px;
+		letter-spacing: 0.48px;
+		color: $main-color;
+	}
+	&__form {
+		display: flex;
+		column-gap: 24px;
+		align-items: center;
+	}
+	&__input {
+		input {
+			height: 56px;
+			font-size: 23px;
+			line-height: 32px;
+			letter-spacing: 0.48px;
+			border: 2px solid #161513;
+			padding: 0 21px;
+			color: $main-color;
+			background: #E6E3DE;
+		}
+	}
+	&__btn {
+		font-size: 23px;
+		line-height: 32px;
+		letter-spacing: 0.48px;
+		color: #FFFFFF;
+		background: #131416;
+		padding: 12px 15px;
+		cursor: pointer;
+	}
+}

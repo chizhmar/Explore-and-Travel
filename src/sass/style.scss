@@ -5,7 +5,6 @@
 
 * {
 	font-family: 'Bai Jamjuree', sans-serif;
-	background: #F5F5F5;
 	}
 .container {
 	max-width: 1090px;
@@ -22,3 +21,5 @@
 @import 'blocks/services';
 @import 'blocks/customer';
 @import 'blocks/articles';
+@import 'blocks/address';
+@import 'blocks/footer';
